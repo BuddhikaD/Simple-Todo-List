@@ -1,8 +1,12 @@
 # Simple-Todo-List
 Simple HTML CSS JS Todo list 
-You can add new todo items to this list.
-You can delete todo items you previously added.
-You can search any todo item in this list.
+<ul>
+  <li>You can add new todo items to this list.</li>
+  <li>You can delete todo items you previously added.</li>
+  <li>You can search any todo item in this list.</li>
+</ul>
+
+
 
 <h2>TODO HOME</h2>
 <img src="/Screenshots/todo.png">
