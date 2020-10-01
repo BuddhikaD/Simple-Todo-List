@@ -6,13 +6,13 @@ body{
 }
 input[type=text],
 input[type=text]:focus{
-    color: #fff;
+    color: #2E2EFE;
     border: none;
     background: rgba(0, 0,0, 0.2);
     max-width: 400px;
 }
 .todos li{
-    background: #408b8b;
+    background: #A9BCF5;
 }
 .delete{
     cursor: pointer;
