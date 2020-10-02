@@ -1,12 +1,12 @@
 body{
-    background: #3f6975;
+    background: #F78181;
 }
 .container{
     max-width: 400px;
 }
 input[type=text],
 input[type=text]:focus{
-    color: #2E2EFE;
+    color: #DF013A;
     border: none;
     background: rgba(0, 0,0, 0.2);
     max-width: 400px;
