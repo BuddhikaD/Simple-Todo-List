@@ -38,7 +38,7 @@ list.addEventListener('click', e => {
 const filterTodos = (term) => {
 
 
-    Array.from(list.children)
+    Array.from(list.children)//declaring array
         .filter((todo) => !todo.textContent.toLowerCase().includes(term))
         .forEach((todo) => todo.classList.add('filtered'));
 
