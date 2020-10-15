@@ -1,22 +1,31 @@
-body{
-    background: Green;
+body {
+    background: #4991a2;
 }
-.container{
+
+.container {
     max-width: 600px;
 }
+
 input[type=text],
-input[type=text]:focus{
-    color: black;
+input[type=text]:focus {
+    color: £4991a2;
     border: none;
-    background: rgba(0, 0,0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     max-width: 800px;
 }
-.todos li{
+
+.todos li {
     background: #408b8b;
 }
-.delete{
+
+.delete {
     cursor: pointer;
 }
-.filtered{
+
+.filtered {
     display: none !important;
+}
+
+.checkbox .selected {
+    font-weight: bold;
 }
