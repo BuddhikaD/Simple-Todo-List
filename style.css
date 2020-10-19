@@ -1,14 +1,21 @@
 body {
-    background: #4991a2;
+   background: rgb(14,107,95);
+background: linear-gradient(90deg, rgba(14,107,95,0.927608543417367) 100%, rgba(1,213,196,1) 100%);
 }
 
 .container {
     max-width: 600px;
 }
 
+/* Changed text and color for better UI*/
+.form-control::placeholder{
+    color: gainsboro;
+}
+
+
 input[type=text],
 input[type=text]:focus {
-    color: £4991a2;
+    color: white;
     border: none;
     background: rgba(0, 0, 0, 0.3);
     max-width: 800px;
@@ -29,3 +36,4 @@ input[type=text]:focus {
 .checkbox .selected {
     font-weight: bold;
 }
+
